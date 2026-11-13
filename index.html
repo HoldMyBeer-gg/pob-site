@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pobios: Path of Building, native on iPad</title>
+<meta name="description" content="Path of Building on iPad, running PoB's own calculation engine. The same numbers as desktop PoB, a passive tree drawn on Metal, built for touch. Free and open source.">
+<link rel="canonical" href="https://pob.holdmybeer.gg/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pob.holdmybeer.gg/">
+<meta property="og:title" content="pobios: Path of Building, native on iPad">
+<meta property="og:description" content="PoB's own engine, on iPad. Same numbers as desktop, built for touch. Free and open source.">
+<meta property="og:image" content="https://pob.holdmybeer.gg/media/tree.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%2308101C'/><circle cx='8' cy='8' r='4.5' fill='none' stroke='%233EC8FF' stroke-width='1.6'/><circle cx='8' cy='8' r='1.6' fill='%23CDD8EC'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "pobios",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "iPadOS",
+  "description": "Path of Building for iPad, running PoB's own Lua calculation engine.",
+  "url": "https://pob.holdmybeer.gg/",
+  "codeRepository": "https://github.com/HoldMyBeer-gg/pobios",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">pob<b>ios</b></a>
+    <div class="links">
+      <a href="#features">Features</a>
+      <a href="#numbers">Same numbers</a>
+      <a href="https://github.com/HoldMyBeer-gg/pobios">GitHub</a>
+      <a href="https://github.com/sponsors/jabberwock">Sponsor</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="kicker">Path of Building · iPad · Free &amp; open source</p>
+    <h1>Path of Building, <em>native on iPad</em>.</h1>
+    <p class="lede">Not a port of the math. The math itself: pobios runs Path of Building's own calculation engine, so every number matches desktop PoB. Around it, an interface built for touch and a passive tree drawn on Metal.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/HoldMyBeer-gg/pobios">Get the source</a>
+      <a class="btn ghost" href="https://github.com/sponsors/jabberwock">Sponsor the work</a>
+    </div>
+    <div class="device"><img src="media/tree.webp" width="1600" height="1200" alt="The passive skill tree in pobios on iPad, with a build's allocated nodes highlighted"></div>
+  </header>
+
+  <section id="features">
+    <h2>Everything you open PoB for</h2>
+    <p class="section-lede">Paste a pobb.in link or a share code, or import straight from your Path of Exile account. Then plan the way you would at your desk, from the couch.</p>
+
+    <div class="feature">
+      <div>
+        <h3>Your builds, at a glance</h3>
+        <p>Every build with its DPS, EHP and level on the card. Sort by any of them, search by class or skill, keep snapshots before big changes.</p>
+      </div>
+      <figure class="shot"><img src="media/builds.webp" width="1600" height="1200" alt="The build library, listing five builds with DPS, EHP and level" loading="lazy"></figure>
+    </div>
+
+    <div class="feature flip">
+      <div>
+        <h3>The tree, under your finger</h3>
+        <p>Pinch, pan and tap to allocate. The tree is drawn on Metal from the game's own art, with PoB's path planning, search and jewel radii.</p>
+      </div>
+      <figure class="shot"><img src="media/tree-detail.webp" width="1600" height="1200" alt="A close view of the passive tree" loading="lazy"></figure>
+    </div>
+
+    <div class="feature">
+      <div>
+        <h3>Skills and gems</h3>
+        <p>Socket groups, supports and gem levels, with PoB's own ranking of which support would add the most damage to the skill you are editing.</p>
+      </div>
+      <figure class="shot"><img src="media/skills.webp" width="1600" height="1200" alt="The skills screen with socket groups and gems" loading="lazy"></figure>
+    </div>
+
+    <div class="feature flip">
+      <div>
+        <h3>Items and trade</h3>
+        <p>Craft and compare gear, then ask PoB's weighted trade search for the best upgrade to any slot. The link it opens is the one PoB builds.</p>
+      </div>
+      <figure class="shot"><img src="media/items.webp" width="1600" height="1200" alt="The items screen with equipped gear" loading="lazy"></figure>
+    </div>
+
+    <div class="feature">
+      <div>
+        <h3>Every number, explained</h3>
+        <p>The full calculation breakdown, with the sources behind each stat, exactly as PoB computes them.</p>
+      </div>
+      <figure class="shot"><img src="media/calcs.webp" width="1600" height="1200" alt="The calculations breakdown" loading="lazy"></figure>
+    </div>
+
+    <div class="feature flip">
+      <div>
+        <h3>Find the timeless jewel</h3>
+        <p>PoB's timeless jewel finder runs on the iPad, seed tables and all, and hands you a trade search for the seeds it ranks highest.</p>
+      </div>
+      <figure class="shot"><img src="media/timeless.webp" width="1600" height="1200" alt="The timeless jewel finder with ranked seeds" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section id="numbers">
+    <h2>The same numbers as PoB</h2>
+    <p class="section-lede">Rewriting Path of Building's calculations would mean chasing it every league. pobios embeds the real thing instead, and its tests check the results against the stats desktop PoB records.</p>
+    <div class="facts">
+      <div class="fact"><p class="label">Engine</p><p><strong>PoB's own Lua</strong>, running on LuaJIT inside the app. A new league is a PoB update, not a rewrite.</p></div>
+      <div class="fact"><p class="label">Offline</p><p><strong>Plans without signal.</strong> Builds live on the device; trade and imports reach out only when you ask.</p></div>
+      <div class="fact"><p class="label">Both games</p><p><strong>Path of Exile 1 and 2</strong>, each on its own Path of Building, as separate apps.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="support">
+      <h2>Free, and staying that way</h2>
+      <p>pobios is a fan project, free to use and open source. If it earns a place on your iPad, sponsoring keeps it moving each league.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/sponsors/jabberwock">Sponsor on GitHub</a>
+        <a class="btn ghost" href="https://github.com/HoldMyBeer-gg/pobios">Read the code</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>pobios is not affiliated with or endorsed by Grinding Gear Games or the Path of Building Community. Path of Exile is a trademark of Grinding Gear Games. <a href="https://github.com/PathOfBuildingCommunity/PathOfBuilding">Path of Building</a> is MIT-licensed by its community authors.</p>
+    <p>Made by <a href="https://github.com/jabberwock">jabberwock</a> · <a href="https://holdmybeer.gg">Hold My Beer</a></p>
+  </footer>
+</div>
+</body>
+</html>
